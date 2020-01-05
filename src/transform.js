@@ -1,6 +1,8 @@
-import { camelCase as ccCamel } from 'camel-case'
-import { snakeCase as ccSnake } from 'snake-case'
-import { headerCase as ccHeader } from 'header-case'
+import {
+  camelCase as ccCamel,
+  snakeCase as ccSnake,
+  headerCase as ccHeader,
+ } from 'change-case'
 
 import { isPlainObject, isURLSearchParams, isFormData } from './util'
 

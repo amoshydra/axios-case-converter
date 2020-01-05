@@ -1,6 +1,6 @@
 import _toConsumableArray from "@babel/runtime/helpers/toConsumableArray";
 import _slicedToArray from "@babel/runtime/helpers/slicedToArray";
-import { headerCase as ccHeader } from 'header-case';
+import { headerCase as ccHeader } from 'change-case';
 import { snake, camel, header } from './transform';
 export var snakeParams = function snakeParams(config) {
   if (config.params) {
