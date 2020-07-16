@@ -37,9 +37,7 @@
   },
   "homepage": "https://github.com/mpyw/axios-interceptor-change-case#readme",
   "dependencies": {
-    "camel-case": "^4.1.1",
-    "header-case": "^2.0.3",
-    "snake-case": "^3.0.3"
+    "change-case": "^4.1.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",

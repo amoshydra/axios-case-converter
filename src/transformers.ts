@@ -1,6 +1,8 @@
-import { camelCase as camelCaseString } from "camel-case";
-import { snakeCase as snakeCaseString } from "snake-case";
-import { headerCase as headerCaseString } from "header-case";
+import {
+  camelCase as camelCaseString,
+  snakeCase as snakeCaseString,
+  headerCase as headerCaseString,
+} from "change-case";
 import { applyCaseOptions, preserveSpecificKeys } from "./decorators";
 import { isFormData, isTransformable, isURLSearchParams } from "./util";
 import {
